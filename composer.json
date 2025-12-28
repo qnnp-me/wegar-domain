@@ -1,0 +1,16 @@
+{
+  "name": "wegar/domain",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin wegar/domain",
+  "require": {
+    "php": ">=8.1",
+    "webman/database": "^2.1",
+    "wegar/basic": "^v1.0|@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wegar\\Domain\\": "src"
+    }
+  }
+}
